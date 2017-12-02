@@ -1,0 +1,60 @@
+<h1>Welcome to <span class="name">{{selectedCardVal.name}}</span> profile</h1>
+
+<table>
+<tr>
+    <th>
+        <tr>Id</tr>       
+      </th>
+      <th>
+        <tr>{{selectedCardVal.id}}</tr>    
+      </th>
+</tr>
+
+<tr>
+    <th>
+        <tr>Name</tr>       
+      </th>
+      <th>
+        <tr>{{selectedCardVal.name}}</tr>    
+      </th>
+</tr>
+ 
+<tr>
+    <th>
+        <tr>Email</tr>       
+      </th>
+      <th>
+        <tr>{{selectedCardVal.email}}</tr>    
+      </th>
+</tr>
+  
+<tr>
+    <th>
+        <tr>Phone</tr>       
+      </th>
+      <th>
+        <tr>{{selectedCardVal.phone}}</tr>    
+      </th>
+</tr>
+
+<tr>
+    <th>
+        <tr>Website</tr>       
+      </th>
+      <th>
+        <tr>{{selectedCardVal.website}}</tr>    
+      </th>
+</tr>
+<tr>
+    <th>
+        <tr>Username</tr>       
+      </th>
+      <th>
+        <tr>{{selectedCardVal.username}}</tr>    
+      </th>
+</tr>
+  </table>
+
+<a [routerLink]="['/landing']">  
+  click here to... user-list page
+</a>
